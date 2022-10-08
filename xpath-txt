@@ -1,0 +1,11 @@
+$x('//a[@class="finanzasSect"]/@href').map(x => x.value)
+Links = //a[@class="finanzasSect"]/@href
+
+$x('//h2/span/text()').map(x => x.wholeText)
+Title = //h2/span/text()
+
+$x('//div[@class="lead"]/p/text()').map(x => x.wholeText)
+Resume = //div[@class="lead"]/p/text()
+
+$x('//div[@class="lead"]/p/text()').map(x => x.wholeText)
+Cuerpo = //div[@class="lead"]/p/text()
